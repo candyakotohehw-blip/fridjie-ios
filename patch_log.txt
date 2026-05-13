@@ -1,0 +1,16 @@
+﻿dart : git : The term 'git' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the 
+At C:\Users\Admin\AppData\Local\Temp\ps-script-43ef11b8-299c-4fc5-893f-e460745569a0.ps1:7 char:1
++ dart run tool/patch_step56.dart 2>&1 | Out-File -FilePath patch_log.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (git : The term ...ram. Check the :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At C:\Users\Admin\Downloads\flutter\bin\internal\update_engine_version.ps1:53 char:11
++ } elseif (git -C "$flutterRoot" ls-files bin/internal/engine.version) ...
++           ~~~
+    + CategoryInfo          : ObjectNotFound: (git:String) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Error: Unable to determine engine version... 
